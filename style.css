@@ -1,0 +1,117 @@
+p {
+  font-size: 18px;
+  font-size: 1.125rem;
+  letter-spacing: 3.312px;
+}
+
+.social {
+  padding: 0 3px;
+}
+
+.social .fa-facebook {
+  background: #444fdb;
+}
+
+.social .fa-facebook:hover, .social .fa-facebook:focus {
+  background: red;
+}
+
+.social .fa-twitter {
+  background: #138e09;
+}
+
+.social .fa-twitter:hover, .social .fa-twitter:focus {
+  background: red;
+}
+
+.social .fa-linkedin {
+  background: #9E25A2;
+}
+
+.social .fa-linkedin:hover, .social .fa-linkedin:focus {
+  background: red;
+}
+
+.social .fa-pinterest {
+  background: #CB2027;
+}
+
+.social .fa-pinterest:hover, .social .fa-pinterest:focus {
+  background: red;
+}
+
+.social a {
+  width: 240px;
+  display: block;
+  padding: 22px 15px;
+  margin: 0 0 15px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 80px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.menu {
+  background: green;
+}
+
+.menu ul {
+  list-style: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li.active a {
+  background: red;
+}
+
+.menu ul li a {
+  font-size: 18px;
+  display: block;
+  color: pink;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background: red;
+}
+
+h1 {
+  background: red;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+
+.panel {
+  padding: 0 18px;
+  display: none !important;
+  background-color: white;
+  overflow: hidden;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
